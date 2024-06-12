@@ -27,7 +27,7 @@ const data_projects = [
     {
         name: 'Dev Portfolio',
         image: portfolio,
-        deployed_url: 'https://dev-talks.herokuapp.com/',
+        deployed_url: 'https://sakshiijagdale.netlify.app',
         github_url: 'https://github.com/sakshijagdale016/dev-portfolio.git',
         category: ['react.js']
     },
