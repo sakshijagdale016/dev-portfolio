@@ -13,11 +13,6 @@ const skills = [
     icon: backend,
     title: "Backend Development",
     about: "I can handle database, server & api's",
-  },
-  {
-    icon: api,
-    title: "Devops",
-    about: "I can automate and manage your infrastructure with CI/CD pipelines and cloud services",
   }
 ];
 const About = () => {

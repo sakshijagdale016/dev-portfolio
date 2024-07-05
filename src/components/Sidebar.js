@@ -7,6 +7,8 @@ import tie from '../assets/icons/tie.svg'
 import coder from '../assets/coder.jpg'
 import resume from '../assets/Sakshi_Jagdale.pdf'
 const Sidebar = () => {
+
+  
     const handleEmailMe =()=>{
         window.open("mailto:ashok.sakshi21@vit.edu")
     }
@@ -16,7 +18,7 @@ const Sidebar = () => {
       <div className="sidebar_name">
         Sakshi<span> Jagdale</span>
       </div>
-      <div className="sidebar_item sidebar_title"> Web Developer</div>
+      <div className="sidebar_item sidebar_title"> Web Developer </div>
       <a href={resume} download="resume.pdf">
         <div className="sidebar_item sidebar_resume">
           <img src={tie} alt="resume" className="sidebar_icon" /> Download Resume
@@ -25,10 +27,13 @@ const Sidebar = () => {
 
       <figure className="sidebar_social-icons my-2">
         <a href='https://www.instagram.com/sakshi.jagdale29' target='_blank'>
+
           <img src={facebook} alt="facebook" className="sidebar_icon mr-3" />
         </a>
         <a href='https://www.instagram.com/sakshi.jagdale29' target='_blank'>
+
           <img src={instagram} alt="instagram" className="sidebar_icon" />
+
         </a>
       </figure>
       <div className="sidebar_contact">
@@ -51,5 +56,7 @@ const Sidebar = () => {
     </div>
   );
 };
+
+
 
 export default Sidebar;
